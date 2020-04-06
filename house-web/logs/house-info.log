@@ -1,0 +1,725 @@
+2020-04-04 09:36:34.381 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] maincid - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ljq.house.web.JasyptTest], using SpringBootContextLoader
+2020-04-04 09:36:34.394 [main] INFO  [org.springframework.test.context.support.AbstractContextLoader:264] maincid - Could not detect default resource locations for test class [com.ljq.house.web.JasyptTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-04 09:36:34.395 [main] INFO  [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] maincid - Could not detect default configuration classes for test class [com.ljq.house.web.JasyptTest]: JasyptTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-04 09:36:34.526 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] maincid - Found @SpringBootConfiguration com.ljq.house.HouseApplication for test class com.ljq.house.web.JasyptTest
+2020-04-04 09:36:34.594 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] maincid - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-04-04 09:36:34.608 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] maincid - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9573b3b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@67427b69, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@78461bc4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@544630b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64f857e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1095f122, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@58c540cf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3d6300e8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1b822fcc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24a1c17f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@56102e1c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@73511076]
+2020-04-04 09:36:34.938 [main] INFO  [com.ljq.house.web.JasyptTest:50] maincid - Starting JasyptTest on DESKTOP-Q9HNBV3 with PID 10144 (started by Lp in D:\java\code\LovingHome-Real-Estate-Platform\sz.lianjia\house-web)
+2020-04-04 09:36:34.940 [main] INFO  [com.ljq.house.web.JasyptTest:675] maincid - No active profile set, falling back to default profiles: default
+2020-04-04 09:36:36.447 [main] INFO  [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:50] maincid - Post-processing PropertySource instances
+2020-04-04 09:36:36.518 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-04 09:36:36.518 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:36:36.518 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:36:36.518 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:36:36.518 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-04 09:36:36.518 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:36:36.596 [main] INFO  [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] maincid - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-04 09:36:36.650 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] maincid - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b3acea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-04 09:36:36.713 [main] INFO  [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:31] maincid - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-04 09:36:36.715 [main] INFO  [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:30] maincid - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-04 09:36:36.742 [main] INFO  [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] maincid - Init DruidDataSource
+2020-04-04 09:36:36.968 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:930] maincid - {dataSource-1} inited
+2020-04-04 09:36:38.880 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] maincid - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:36:39.705 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171] maincid - Initializing ExecutorService
+2020-04-04 09:36:40.055 [main] WARN  [org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration:154] maincid - Could not start embedded management container on different port (management endpoints are still available through JMX)
+2020-04-04 09:36:40.073 [main] INFO  [com.ljq.house.web.JasyptTest:59] maincid - Started JasyptTest in 5.418 seconds (JVM running for 7.445)
+2020-04-04 09:36:40.091 [registrationTask1] ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler:96] registrationTask1cid - Unexpected error occurred in scheduled task.
+java.lang.IllegalStateException: couldn't determine local port. Please set spring.boot.admin.client.instance.service-base-url.
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getLocalServerPort(DefaultApplicationFactory.java:189) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getServiceBaseUrl(DefaultApplicationFactory.java:104) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getServiceUrl(ServletApplicationFactory.java:62) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getManagementBaseUrl(ServletApplicationFactory.java:77) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getHealthUrl(DefaultApplicationFactory.java:150) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.createApplication(DefaultApplicationFactory.java:75) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ApplicationRegistrator.createApplication(ApplicationRegistrator.java:154) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ApplicationRegistrator.register(ApplicationRegistrator.java:71) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-04-04 09:36:40.433 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:32] maincid - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2020-04-04 09:36:40.455 [Thread-3] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208] Thread-3cid - Shutting down ExecutorService
+2020-04-04 09:36:40.456 [Thread-3] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Thread-3cid - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:36:40.462 [Thread-3] INFO  [com.alibaba.druid.pool.DruidDataSource:1825] Thread-3cid - {dataSource-1} closed
+2020-04-04 09:38:27.826 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] maincid - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ljq.house.web.JasyptTest], using SpringBootContextLoader
+2020-04-04 09:38:27.847 [main] INFO  [org.springframework.test.context.support.AbstractContextLoader:264] maincid - Could not detect default resource locations for test class [com.ljq.house.web.JasyptTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-04 09:38:27.848 [main] INFO  [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] maincid - Could not detect default configuration classes for test class [com.ljq.house.web.JasyptTest]: JasyptTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-04 09:38:28.007 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] maincid - Found @SpringBootConfiguration com.ljq.house.HouseApplication for test class com.ljq.house.web.JasyptTest
+2020-04-04 09:38:28.085 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] maincid - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-04-04 09:38:28.097 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] maincid - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9573b3b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@67427b69, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@78461bc4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@544630b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64f857e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1095f122, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@58c540cf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3d6300e8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1b822fcc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24a1c17f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@56102e1c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@73511076]
+2020-04-04 09:38:28.407 [main] INFO  [com.ljq.house.web.JasyptTest:50] maincid - Starting JasyptTest on DESKTOP-Q9HNBV3 with PID 13168 (started by Lp in D:\java\code\LovingHome-Real-Estate-Platform\sz.lianjia\house-web)
+2020-04-04 09:38:28.409 [main] INFO  [com.ljq.house.web.JasyptTest:675] maincid - No active profile set, falling back to default profiles: default
+2020-04-04 09:38:29.855 [main] INFO  [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:50] maincid - Post-processing PropertySource instances
+2020-04-04 09:38:29.923 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-04 09:38:29.923 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:38:29.923 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:38:29.923 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:38:29.923 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-04 09:38:29.924 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:38:29.994 [main] INFO  [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] maincid - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-04 09:38:30.054 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] maincid - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b3acea5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-04 09:38:30.124 [main] INFO  [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:31] maincid - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-04 09:38:30.126 [main] INFO  [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:30] maincid - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-04 09:38:30.152 [main] INFO  [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] maincid - Init DruidDataSource
+2020-04-04 09:38:30.365 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:930] maincid - {dataSource-1} inited
+2020-04-04 09:38:32.116 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] maincid - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:38:32.995 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171] maincid - Initializing ExecutorService
+2020-04-04 09:38:33.335 [main] WARN  [org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration:154] maincid - Could not start embedded management container on different port (management endpoints are still available through JMX)
+2020-04-04 09:38:33.350 [main] INFO  [com.ljq.house.web.JasyptTest:59] maincid - Started JasyptTest in 5.213 seconds (JVM running for 7.03)
+2020-04-04 09:38:33.369 [registrationTask1] ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler:96] registrationTask1cid - Unexpected error occurred in scheduled task.
+java.lang.IllegalStateException: couldn't determine local port. Please set spring.boot.admin.client.instance.service-base-url.
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getLocalServerPort(DefaultApplicationFactory.java:189) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getServiceBaseUrl(DefaultApplicationFactory.java:104) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getServiceUrl(ServletApplicationFactory.java:62) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getManagementBaseUrl(ServletApplicationFactory.java:77) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getHealthUrl(DefaultApplicationFactory.java:150) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.createApplication(DefaultApplicationFactory.java:75) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ApplicationRegistrator.createApplication(ApplicationRegistrator.java:154) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ApplicationRegistrator.register(ApplicationRegistrator.java:71) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-04-04 09:38:33.651 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:32] maincid - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2020-04-04 09:38:33.681 [Thread-3] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208] Thread-3cid - Shutting down ExecutorService
+2020-04-04 09:38:33.682 [Thread-3] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Thread-3cid - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:38:33.688 [Thread-3] INFO  [com.alibaba.druid.pool.DruidDataSource:1825] Thread-3cid - {dataSource-1} closed
+2020-04-04 09:39:05.201 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] maincid - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ljq.house.web.JasyptTest], using SpringBootContextLoader
+2020-04-04 09:39:05.238 [main] INFO  [org.springframework.test.context.support.AbstractContextLoader:264] maincid - Could not detect default resource locations for test class [com.ljq.house.web.JasyptTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-04 09:39:05.239 [main] INFO  [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] maincid - Could not detect default configuration classes for test class [com.ljq.house.web.JasyptTest]: JasyptTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-04 09:39:05.387 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] maincid - Found @SpringBootConfiguration com.ljq.house.HouseApplication for test class com.ljq.house.web.JasyptTest
+2020-04-04 09:39:05.485 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] maincid - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-04-04 09:39:05.504 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] maincid - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@67427b69, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78461bc4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@544630b7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@64f857e7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1095f122, org.springframework.test.context.transaction.TransactionalTestExecutionListener@58c540cf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3d6300e8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1b822fcc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@24a1c17f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@56102e1c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@73511076, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7927bd9f]
+2020-04-04 09:39:05.850 [main] INFO  [com.ljq.house.web.JasyptTest:50] maincid - Starting JasyptTest on DESKTOP-Q9HNBV3 with PID 13968 (started by Lp in D:\java\code\LovingHome-Real-Estate-Platform\sz.lianjia\house-web)
+2020-04-04 09:39:05.852 [main] INFO  [com.ljq.house.web.JasyptTest:675] maincid - No active profile set, falling back to default profiles: default
+2020-04-04 09:39:07.298 [main] INFO  [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:50] maincid - Post-processing PropertySource instances
+2020-04-04 09:39:07.377 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-04 09:39:07.377 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:39:07.377 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:39:07.378 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:39:07.378 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-04 09:39:07.378 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:39:07.451 [main] INFO  [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] maincid - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-04 09:39:07.513 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] maincid - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b5aa41f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-04 09:39:07.587 [main] INFO  [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:31] maincid - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-04 09:39:07.589 [main] INFO  [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:30] maincid - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-04 09:39:07.612 [main] INFO  [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] maincid - Init DruidDataSource
+2020-04-04 09:39:07.688 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:32] maincid - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2020-04-04 09:39:07.698 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:58] maincid - Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2020-04-04 09:39:07.698 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:58] maincid - Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2020-04-04 09:39:07.698 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:58] maincid - Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2020-04-04 09:39:07.698 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:58] maincid - Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2020-04-04 09:39:07.698 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:58] maincid - Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2020-04-04 09:39:07.699 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:58] maincid - Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2020-04-04 09:39:07.715 [main] INFO  [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:58] maincid - Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2020-04-04 09:39:07.901 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:930] maincid - {dataSource-1} inited
+2020-04-04 09:39:09.628 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] maincid - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:39:10.429 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171] maincid - Initializing ExecutorService
+2020-04-04 09:39:10.748 [main] WARN  [org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration:154] maincid - Could not start embedded management container on different port (management endpoints are still available through JMX)
+2020-04-04 09:39:10.762 [main] INFO  [com.ljq.house.web.JasyptTest:59] maincid - Started JasyptTest in 5.215 seconds (JVM running for 7.095)
+2020-04-04 09:39:10.780 [registrationTask1] ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler:96] registrationTask1cid - Unexpected error occurred in scheduled task.
+java.lang.IllegalStateException: couldn't determine local port. Please set spring.boot.admin.client.instance.service-base-url.
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getLocalServerPort(DefaultApplicationFactory.java:189) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getServiceBaseUrl(DefaultApplicationFactory.java:104) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getServiceUrl(ServletApplicationFactory.java:62) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ServletApplicationFactory.getManagementBaseUrl(ServletApplicationFactory.java:77) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getHealthUrl(DefaultApplicationFactory.java:150) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.createApplication(DefaultApplicationFactory.java:75) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ApplicationRegistrator.createApplication(ApplicationRegistrator.java:154) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at de.codecentric.boot.admin.client.registration.ApplicationRegistrator.register(ApplicationRegistrator.java:71) ~[spring-boot-admin-client-2.1.1.jar:2.1.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-04-04 09:39:11.382 [Thread-3] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208] Thread-3cid - Shutting down ExecutorService
+2020-04-04 09:39:11.383 [Thread-3] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] Thread-3cid - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:39:11.388 [Thread-3] INFO  [com.alibaba.druid.pool.DruidDataSource:1825] Thread-3cid - {dataSource-1} closed
+2020-04-04 09:51:56.345 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] maincid - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ljq.house.web.AuthTest], using SpringBootContextLoader
+2020-04-04 09:51:56.366 [main] INFO  [org.springframework.test.context.support.AbstractContextLoader:264] maincid - Could not detect default resource locations for test class [com.ljq.house.web.AuthTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-04 09:51:56.368 [main] INFO  [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] maincid - Could not detect default configuration classes for test class [com.ljq.house.web.AuthTest]: AuthTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-04 09:51:56.501 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] maincid - Found @SpringBootConfiguration com.ljq.house.HouseApplication for test class com.ljq.house.web.AuthTest
+2020-04-04 09:51:56.578 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] maincid - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-04-04 09:51:56.591 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] maincid - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5003041b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@724bade8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16fb356, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6bc248ed, org.springframework.test.context.support.DirtiesContextTestExecutionListener@23a9ba52, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ca27722, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@70ab80e3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@9573b3b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@67427b69, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@78461bc4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@544630b7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@64f857e7]
+2020-04-04 09:51:56.921 [main] INFO  [com.ljq.house.web.AuthTest:50] maincid - Starting AuthTest on DESKTOP-Q9HNBV3 with PID 16860 (started by Lp in D:\java\code\LovingHome-Real-Estate-Platform\sz.lianjia\house-web)
+2020-04-04 09:51:56.922 [main] INFO  [com.ljq.house.web.AuthTest:675] maincid - No active profile set, falling back to default profiles: default
+2020-04-04 09:51:58.494 [main] INFO  [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:50] maincid - Post-processing PropertySource instances
+2020-04-04 09:51:58.573 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-04 09:51:58.574 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:51:58.574 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:51:58.574 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:51:58.574 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-04 09:51:58.574 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:51:58.655 [main] INFO  [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] maincid - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-04 09:51:58.704 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] maincid - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60f760a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-04 09:51:58.817 [main] INFO  [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:31] maincid - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-04 09:51:58.819 [main] INFO  [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:30] maincid - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-04 09:51:59.657 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] maincid - Tomcat initialized with port(s): 8083 (http)
+2020-04-04 09:51:59.676 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Initializing ProtocolHandler ["http-nio-8083"]
+2020-04-04 09:51:59.689 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Starting service [Tomcat]
+2020-04-04 09:51:59.690 [main] INFO  [org.apache.catalina.core.StandardEngine:173] maincid - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-04 09:51:59.704 [main] INFO  [org.apache.catalina.core.AprLifecycleListener:173] maincid - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\IntelliJ IDEA 2019.2.4\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\xnj\NetSarang\Xftp 6\;D:\xnj\Xhell6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\java\jdk1.8.0_231\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;D:\java\apache-maven-3.6.3\bin;D:\java\gradle-6.2-rc-1\\bin;D:\web\mysql-8.0.18-winx64\bin;D:\web\Redis\;D:\web\nodejs\;D:\python\Anaconda3;D:\python\Anaconda3\Library\mingw-w64\bin;D:\python\Anaconda3\Library\usr\bin;D:\python\Anaconda3\Library\bin;D:\python\Anaconda3\Scripts;C:\Users\Lp\AppData\Local\Microsoft\WindowsApps;D:\python\PyCharm 2019.2.4\bin;;D:\java\IntelliJ IDEA 2019.2.4\bin;;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Bandizip\;D:\Microsoft VS Code\bin;C:\Users\Lp\AppData\Roaming\npm;.]
+2020-04-04 09:51:59.874 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] maincid - Initializing Spring embedded WebApplicationContext
+2020-04-04 09:51:59.875 [main] INFO  [org.springframework.web.context.ContextLoader:296] maincid - Root WebApplicationContext: initialization completed in 2929 ms
+2020-04-04 09:52:00.412 [main] INFO  [org.springframework.boot.web.servlet.RegistrationBean:111] maincid - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-04 09:52:00.414 [main] INFO  [org.springframework.boot.web.servlet.RegistrationBean:111] maincid - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-04 09:52:00.486 [main] INFO  [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] maincid - Init DruidDataSource
+2020-04-04 09:52:00.706 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:930] maincid - {dataSource-1} inited
+2020-04-04 09:52:01.734 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] maincid - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:52:02.563 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171] maincid - Initializing ExecutorService
+2020-04-04 09:52:03.036 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] maincid - Tomcat initialized with port(s): 8090 (http)
+2020-04-04 09:52:03.037 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:03.038 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Starting service [Tomcat]
+2020-04-04 09:52:03.038 [main] INFO  [org.apache.catalina.core.StandardEngine:173] maincid - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-04 09:52:03.068 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]:173] maincid - Initializing Spring embedded WebApplicationContext
+2020-04-04 09:52:03.069 [main] INFO  [org.springframework.web.context.ContextLoader:296] maincid - Root WebApplicationContext: initialization completed in 131 ms
+2020-04-04 09:52:03.083 [main] INFO  [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar:78] maincid - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-04 09:52:03.095 [main] INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59] maincid - Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-04-04 09:52:03.143 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:03.156 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:173] maincid - Using a shared selector for servlet write/read
+2020-04-04 09:52:03.158 [main] ERROR [org.apache.catalina.util.LifecycleBase:175] maincid - Failed to start component [Connector[HTTP/1.1-8090]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration.afterSingletonsInstantiated(ManagementContextAutoConfiguration.java:151) ~[spring-boot-actuator-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:863) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:?]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:461) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:453) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	... 44 more
+2020-04-04 09:52:03.167 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Pausing ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:03.167 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Stopping service [Tomcat]
+2020-04-04 09:52:03.187 [main] INFO  [org.apache.catalina.util.LifecycleBase:173] maincid - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-04-04 09:52:03.188 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Stopping ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:03.188 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Destroying ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:03.189 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Stopping service [Tomcat]
+2020-04-04 09:52:03.209 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2020-04-04 09:52:03.212 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208] maincid - Shutting down ExecutorService
+2020-04-04 09:52:03.212 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] maincid - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:52:03.215 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:1825] maincid - {dataSource-1} closed
+2020-04-04 09:52:03.316 [main] INFO  [com.ljq.house.web.AuthTest:50] maincid - Starting AuthTest on DESKTOP-Q9HNBV3 with PID 16860 (started by Lp in D:\java\code\LovingHome-Real-Estate-Platform\sz.lianjia\house-web)
+2020-04-04 09:52:03.316 [main] INFO  [com.ljq.house.web.AuthTest:675] maincid - No active profile set, falling back to default profiles: default
+2020-04-04 09:52:03.674 [main] INFO  [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:50] maincid - Post-processing PropertySource instances
+2020-04-04 09:52:03.688 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-04 09:52:03.689 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:03.689 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:03.689 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:03.689 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-04 09:52:03.689 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:03.720 [main] INFO  [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] maincid - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-04 09:52:03.755 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] maincid - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60f760a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-04 09:52:03.786 [main] INFO  [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:31] maincid - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-04 09:52:03.786 [main] INFO  [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:30] maincid - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-04 09:52:03.885 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] maincid - Tomcat initialized with port(s): 8083 (http)
+2020-04-04 09:52:03.886 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Initializing ProtocolHandler ["http-nio-8083"]
+2020-04-04 09:52:03.886 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Starting service [Tomcat]
+2020-04-04 09:52:03.887 [main] INFO  [org.apache.catalina.core.StandardEngine:173] maincid - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-04 09:52:03.924 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]:173] maincid - Initializing Spring embedded WebApplicationContext
+2020-04-04 09:52:03.924 [main] INFO  [org.springframework.web.context.ContextLoader:296] maincid - Root WebApplicationContext: initialization completed in 605 ms
+2020-04-04 09:52:04.248 [main] INFO  [org.springframework.boot.web.servlet.RegistrationBean:111] maincid - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-04 09:52:04.249 [main] INFO  [org.springframework.boot.web.servlet.RegistrationBean:111] maincid - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-04 09:52:04.280 [main] INFO  [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] maincid - Init DruidDataSource
+2020-04-04 09:52:04.327 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:930] maincid - {dataSource-2} inited
+2020-04-04 09:52:04.678 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] maincid - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:52:05.059 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171] maincid - Initializing ExecutorService
+2020-04-04 09:52:05.270 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] maincid - Tomcat initialized with port(s): 8090 (http)
+2020-04-04 09:52:05.271 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:05.271 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Starting service [Tomcat]
+2020-04-04 09:52:05.271 [main] INFO  [org.apache.catalina.core.StandardEngine:173] maincid - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-04 09:52:05.296 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/]:173] maincid - Initializing Spring embedded WebApplicationContext
+2020-04-04 09:52:05.296 [main] INFO  [org.springframework.web.context.ContextLoader:296] maincid - Root WebApplicationContext: initialization completed in 68 ms
+2020-04-04 09:52:05.301 [main] INFO  [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar:78] maincid - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-04 09:52:05.306 [main] INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59] maincid - Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-04-04 09:52:05.336 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:05.337 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:173] maincid - Using a shared selector for servlet write/read
+2020-04-04 09:52:05.338 [main] ERROR [org.apache.catalina.util.LifecycleBase:175] maincid - Failed to start component [Connector[HTTP/1.1-8090]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration.afterSingletonsInstantiated(ManagementContextAutoConfiguration.java:151) ~[spring-boot-actuator-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:863) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.outputConditionEvaluationReport(SpringBootDependencyInjectionTestExecutionListener.java:54) ~[spring-boot-test-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47) ~[spring-boot-test-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:?]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:461) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:453) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	... 43 more
+2020-04-04 09:52:05.339 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Pausing ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:05.340 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Stopping service [Tomcat]
+2020-04-04 09:52:05.342 [main] INFO  [org.apache.catalina.util.LifecycleBase:173] maincid - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-04-04 09:52:05.343 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Stopping ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:05.343 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Destroying ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:05.343 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Stopping service [Tomcat]
+2020-04-04 09:52:05.351 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2020-04-04 09:52:05.351 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208] maincid - Shutting down ExecutorService
+2020-04-04 09:52:05.352 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] maincid - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:52:05.353 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:1825] maincid - {dataSource-2} closed
+2020-04-04 09:52:05.356 [main] ERROR [org.springframework.test.context.TestContextManager:250] maincid - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6bc248ed] to prepare test instance [com.ljq.house.web.AuthTest@37c762aa]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:?]
+Caused by: org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8090 failed to start
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.checkConnectorHasStarted(TomcatWebServer.java:232) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.checkThatConnectorsHaveStarted(TomcatWebServer.java:224) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration.afterSingletonsInstantiated(ManagementContextAutoConfiguration.java:151) ~[spring-boot-actuator-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:863) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	... 25 more
+2020-04-04 09:52:23.597 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:308] maincid - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ljq.house.web.AuthTest], using SpringBootContextLoader
+2020-04-04 09:52:23.611 [main] INFO  [org.springframework.test.context.support.AbstractContextLoader:264] maincid - Could not detect default resource locations for test class [com.ljq.house.web.AuthTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-04 09:52:23.612 [main] INFO  [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils:83] maincid - Could not detect default configuration classes for test class [com.ljq.house.web.AuthTest]: AuthTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-04 09:52:23.749 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:247] maincid - Found @SpringBootConfiguration com.ljq.house.HouseApplication for test class com.ljq.house.web.AuthTest
+2020-04-04 09:52:23.811 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:248] maincid - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-04-04 09:52:23.823 [main] INFO  [org.springframework.boot.test.context.SpringBootTestContextBootstrapper:177] maincid - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16fb356, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6bc248ed, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23a9ba52, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ca27722, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70ab80e3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@9573b3b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@67427b69, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@78461bc4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@544630b7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64f857e7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1095f122, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@58c540cf]
+2020-04-04 09:52:24.142 [main] INFO  [com.ljq.house.web.AuthTest:50] maincid - Starting AuthTest on DESKTOP-Q9HNBV3 with PID 14400 (started by Lp in D:\java\code\LovingHome-Real-Estate-Platform\sz.lianjia\house-web)
+2020-04-04 09:52:24.144 [main] INFO  [com.ljq.house.web.AuthTest:675] maincid - No active profile set, falling back to default profiles: default
+2020-04-04 09:52:25.568 [main] INFO  [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:50] maincid - Post-processing PropertySource instances
+2020-04-04 09:52:25.635 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-04 09:52:25.635 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:25.635 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:25.635 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:25.635 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-04 09:52:25.635 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:25.712 [main] INFO  [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] maincid - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-04 09:52:25.781 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] maincid - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2593e0c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-04 09:52:25.911 [main] INFO  [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:31] maincid - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-04 09:52:25.913 [main] INFO  [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:30] maincid - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-04 09:52:26.625 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] maincid - Tomcat initialized with port(s): 8083 (http)
+2020-04-04 09:52:26.642 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Initializing ProtocolHandler ["http-nio-8083"]
+2020-04-04 09:52:26.658 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Starting service [Tomcat]
+2020-04-04 09:52:26.659 [main] INFO  [org.apache.catalina.core.StandardEngine:173] maincid - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-04 09:52:26.672 [main] INFO  [org.apache.catalina.core.AprLifecycleListener:173] maincid - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\IntelliJ IDEA 2019.2.4\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\xnj\NetSarang\Xftp 6\;D:\xnj\Xhell6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\java\jdk1.8.0_231\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;D:\java\apache-maven-3.6.3\bin;D:\java\gradle-6.2-rc-1\\bin;D:\web\mysql-8.0.18-winx64\bin;D:\web\Redis\;D:\web\nodejs\;D:\python\Anaconda3;D:\python\Anaconda3\Library\mingw-w64\bin;D:\python\Anaconda3\Library\usr\bin;D:\python\Anaconda3\Library\bin;D:\python\Anaconda3\Scripts;C:\Users\Lp\AppData\Local\Microsoft\WindowsApps;D:\python\PyCharm 2019.2.4\bin;;D:\java\IntelliJ IDEA 2019.2.4\bin;;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Bandizip\;D:\Microsoft VS Code\bin;C:\Users\Lp\AppData\Roaming\npm;.]
+2020-04-04 09:52:26.845 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] maincid - Initializing Spring embedded WebApplicationContext
+2020-04-04 09:52:26.845 [main] INFO  [org.springframework.web.context.ContextLoader:296] maincid - Root WebApplicationContext: initialization completed in 2676 ms
+2020-04-04 09:52:27.343 [main] INFO  [org.springframework.boot.web.servlet.RegistrationBean:111] maincid - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-04 09:52:27.345 [main] INFO  [org.springframework.boot.web.servlet.RegistrationBean:111] maincid - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-04 09:52:27.413 [main] INFO  [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] maincid - Init DruidDataSource
+2020-04-04 09:52:27.583 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:930] maincid - {dataSource-1} inited
+2020-04-04 09:52:28.609 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] maincid - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:52:29.455 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171] maincid - Initializing ExecutorService
+2020-04-04 09:52:29.907 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] maincid - Tomcat initialized with port(s): 8090 (http)
+2020-04-04 09:52:29.908 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:29.908 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Starting service [Tomcat]
+2020-04-04 09:52:29.909 [main] INFO  [org.apache.catalina.core.StandardEngine:173] maincid - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-04 09:52:29.939 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]:173] maincid - Initializing Spring embedded WebApplicationContext
+2020-04-04 09:52:29.939 [main] INFO  [org.springframework.web.context.ContextLoader:296] maincid - Root WebApplicationContext: initialization completed in 119 ms
+2020-04-04 09:52:29.950 [main] INFO  [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar:78] maincid - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-04 09:52:29.964 [main] INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59] maincid - Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-04-04 09:52:30.015 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:30.028 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:173] maincid - Using a shared selector for servlet write/read
+2020-04-04 09:52:30.030 [main] ERROR [org.apache.catalina.util.LifecycleBase:175] maincid - Failed to start component [Connector[HTTP/1.1-8090]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration.afterSingletonsInstantiated(ManagementContextAutoConfiguration.java:151) ~[spring-boot-actuator-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:863) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:?]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:461) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:453) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	... 44 more
+2020-04-04 09:52:30.039 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Pausing ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:30.040 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Stopping service [Tomcat]
+2020-04-04 09:52:30.061 [main] INFO  [org.apache.catalina.util.LifecycleBase:173] maincid - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-04-04 09:52:30.061 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Stopping ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:30.062 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Destroying ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:30.063 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Stopping service [Tomcat]
+2020-04-04 09:52:30.078 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2020-04-04 09:52:30.080 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208] maincid - Shutting down ExecutorService
+2020-04-04 09:52:30.080 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] maincid - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:52:30.083 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:1825] maincid - {dataSource-1} closed
+2020-04-04 09:52:30.184 [main] INFO  [com.ljq.house.web.AuthTest:50] maincid - Starting AuthTest on DESKTOP-Q9HNBV3 with PID 14400 (started by Lp in D:\java\code\LovingHome-Real-Estate-Platform\sz.lianjia\house-web)
+2020-04-04 09:52:30.184 [main] INFO  [com.ljq.house.web.AuthTest:675] maincid - No active profile set, falling back to default profiles: default
+2020-04-04 09:52:30.524 [main] INFO  [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:50] maincid - Post-processing PropertySource instances
+2020-04-04 09:52:30.532 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-04-04 09:52:30.532 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:30.533 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:30.533 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:30.533 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-04-04 09:52:30.533 [main] INFO  [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:38] maincid - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-04-04 09:52:30.554 [main] INFO  [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] maincid - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-04-04 09:52:30.582 [main] INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330] maincid - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2593e0c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-04 09:52:30.617 [main] INFO  [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:31] maincid - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-04-04 09:52:30.617 [main] INFO  [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:30] maincid - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-04-04 09:52:30.718 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] maincid - Tomcat initialized with port(s): 8083 (http)
+2020-04-04 09:52:30.719 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Initializing ProtocolHandler ["http-nio-8083"]
+2020-04-04 09:52:30.719 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Starting service [Tomcat]
+2020-04-04 09:52:30.719 [main] INFO  [org.apache.catalina.core.StandardEngine:173] maincid - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-04 09:52:30.755 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-2].[localhost].[/]:173] maincid - Initializing Spring embedded WebApplicationContext
+2020-04-04 09:52:30.755 [main] INFO  [org.springframework.web.context.ContextLoader:296] maincid - Root WebApplicationContext: initialization completed in 569 ms
+2020-04-04 09:52:31.096 [main] INFO  [org.springframework.boot.web.servlet.RegistrationBean:111] maincid - Filter webStatFilter was not registered (possibly already registered?)
+2020-04-04 09:52:31.096 [main] INFO  [org.springframework.boot.web.servlet.RegistrationBean:111] maincid - Servlet statViewServlet was not registered (possibly already registered?)
+2020-04-04 09:52:31.127 [main] INFO  [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56] maincid - Init DruidDataSource
+2020-04-04 09:52:31.184 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:930] maincid - {dataSource-2} inited
+2020-04-04 09:52:31.574 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:171] maincid - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:52:31.988 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:171] maincid - Initializing ExecutorService
+2020-04-04 09:52:32.208 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90] maincid - Tomcat initialized with port(s): 8090 (http)
+2020-04-04 09:52:32.209 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:32.209 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Starting service [Tomcat]
+2020-04-04 09:52:32.209 [main] INFO  [org.apache.catalina.core.StandardEngine:173] maincid - Starting Servlet Engine: Apache Tomcat/9.0.13
+2020-04-04 09:52:32.249 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-3].[localhost].[/]:173] maincid - Initializing Spring embedded WebApplicationContext
+2020-04-04 09:52:32.249 [main] INFO  [org.springframework.web.context.ContextLoader:296] maincid - Root WebApplicationContext: initialization completed in 99 ms
+2020-04-04 09:52:32.254 [main] INFO  [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar:78] maincid - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-04-04 09:52:32.260 [main] INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59] maincid - Exposing 16 endpoint(s) beneath base path '/actuator'
+2020-04-04 09:52:32.291 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:32.292 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:173] maincid - Using a shared selector for servlet write/read
+2020-04-04 09:52:32.293 [main] ERROR [org.apache.catalina.util.LifecycleBase:175] maincid - Failed to start component [Connector[HTTP/1.1-8090]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration.afterSingletonsInstantiated(ManagementContextAutoConfiguration.java:151) ~[spring-boot-actuator-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:863) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.outputConditionEvaluationReport(SpringBootDependencyInjectionTestExecutionListener.java:54) ~[spring-boot-test-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47) ~[spring-boot-test-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:?]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:461) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:453) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998) ~[tomcat-embed-core-9.0.13.jar:9.0.13]
+	... 43 more
+2020-04-04 09:52:32.294 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Pausing ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:32.294 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Stopping service [Tomcat]
+2020-04-04 09:52:32.297 [main] INFO  [org.apache.catalina.util.LifecycleBase:173] maincid - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2020-04-04 09:52:32.297 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Stopping ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:32.298 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] maincid - Destroying ProtocolHandler ["http-nio-8090"]
+2020-04-04 09:52:32.298 [main] INFO  [org.apache.catalina.core.StandardService:173] maincid - Stopping service [Tomcat]
+2020-04-04 09:52:32.306 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2020-04-04 09:52:32.306 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:208] maincid - Shutting down ExecutorService
+2020-04-04 09:52:32.307 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:208] maincid - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-04 09:52:32.308 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:1825] maincid - {dataSource-2} closed
+2020-04-04 09:52:32.311 [main] ERROR [org.springframework.test.context.TestContextManager:250] maincid - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ca27722] to prepare test instance [com.ljq.house.web.AuthTest@2daf0cc9]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) ~[junit-rt.jar:?]
+Caused by: org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8090 failed to start
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.checkConnectorHasStarted(TomcatWebServer.java:232) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.checkThatConnectorsHaveStarted(TomcatWebServer.java:224) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:202) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration.afterSingletonsInstantiated(ManagementContextAutoConfiguration.java:151) ~[spring-boot-actuator-autoconfigure-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:863) ~[spring-beans-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) ~[spring-boot-test-2.1.1.RELEASE.jar:2.1.1.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.3.RELEASE.jar:5.1.3.RELEASE]
+	... 25 more
